@@ -22,8 +22,15 @@ public class VariableApp {
 
         // question 5
 
-        String message = " Never stop learning!";
+        String message = " We Got This";
         System.out.println(message);
+
+        // Step 2 - 1
+
+        int daysInweek = 7;
+
+        System.out.println("There are " + daysInweek + " days in a week");
+
 
 
     }
