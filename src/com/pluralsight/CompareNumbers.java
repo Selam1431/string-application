@@ -5,16 +5,27 @@ public class CompareNumbers {
         System.out.println(isEven(5));
         System.out.println(isEven(8));
 
-        System.out.println(isPositive( 4.5));
-        System.out.println(isPositive(-3.0));
+        System.out.println(isOdd(5));
+        System.out.println(isOdd(8));
+
+
 
     }
     public static boolean isEven(int number) {
-        return number % 2 == 0;
+        if(number % 2 == 0){
+            return true;
+        }
+        else {
+            return false;
+        }
+
+
 
     }
 
-    public static boolean isPositive(double number) {
-        return number > 0;
+    public static boolean isOdd(int number) {
+        return number % 2 != 0;
     }
+
+
 }
