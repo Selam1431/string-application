@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class fullNameApplication {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("ENter Your first name: ");

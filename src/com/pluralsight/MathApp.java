@@ -1,7 +1,7 @@
 package com.pluralsight;
 
 public class MathApp {
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
     double bobSalary = 45000;
     double garySalary = 55000;

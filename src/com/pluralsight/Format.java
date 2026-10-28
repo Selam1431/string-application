@@ -1,7 +1,7 @@
 package com.pluralsight;
 
 public class Format{
-    public static void main(String[] args) {
+    static void main(String[] args) {
         System.out.println(formatName("selam", " Mamuye"));
 
         String result = formatName("Kidus", "Assefa");

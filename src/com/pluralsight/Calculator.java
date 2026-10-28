@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Calculator {
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println(" We have three Calculator which one do u want to use?");
